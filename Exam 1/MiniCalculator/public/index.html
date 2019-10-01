@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Mini Calculator</title>
+</head>
+
+<body>
+  <nav class="navbar fixed-top">
+    Mini Calculator
+  </nav>
+  <div id="main-page" class="container page-container">
+    <div class="row justify-content-center">
+      <div id="calculator" class="col col-sm-10 col-md-6">
+        <div id="display"></div>
+        <div class="row">
+          <div class="col-4"><button data-id="1" class="calc-btn btn btn-block btn-primary">1</button></div>
+          <div class="col-4"><button data-id="2" class="calc-btn btn btn-block btn-primary">2</button></div>
+          <div class="col-4"><button data-id="3" class="calc-btn btn btn-block btn-primary">3</button></div>
+          <div class="col-4"><button data-id="4" class="calc-btn btn btn-block btn-primary">4</button></div>
+          <div class="col-8"><button data-id="0" class="calc-btn btn btn-block btn-primary">0</button></div>
+        </div>
+        <div id="special-button-row" class="row">
+          <div class="col">
+            <button id="double-btn" class="btn btn-block">Double</button>
+          </div>
+          <div class="col">
+            <button id="clear-btn" class="btn btn-block">Clear</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/popper.min.js"></script>
+  <script src="scripts/bootstrap.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
